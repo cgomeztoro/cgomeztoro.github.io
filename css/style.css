@@ -15,7 +15,7 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-
+/*Titulo de la pagina*/
 h1{
 	font-family: 'Open Sans', sans-serif;
 	color: rgb(0,102,128);
@@ -23,10 +23,10 @@ h1{
 	font-size: 40px;
 	text-align: center;
 }
-
+/*Titulo del parrafo*/
 h2{
 	font-family: 'David Libre', serif;
-	color:white;
+	color:rgb(0,102,128);
 	margin-left: 10px;
 	font-size: 20px;
 	text-align: center;
@@ -47,6 +47,7 @@ header{
 	background-image:  url(../img/icono.jpg) ;
 	background-position: top left;
 }
+/*Barra de navegacion*/
 nav{
 	width: 1000px;
 	height: 50px;
@@ -68,25 +69,18 @@ li{
 	
 	margin: 3px;
 	border-radius: 10px;
-	box-shadow: 0 0 10px white inset;
+	/*box-shadow: 0 0 10px white inset;*/
+	/*Not used*/
 }
 section{
 	width: 700px;
-	background: gray;
-	height: 600px;
-	float: left;
-	margin-top: 20px;
-	border-radius: 10px;
-}
-aside{
-	width: 280px;
 	background: white;
 	height: 600px;
 	float: left;
-	margin-left: 20px;
 	margin-top: 20px;
 	border-radius: 10px;
 }
+
 footer{
 	width: 1000px;
 	height: 20px;
@@ -116,5 +110,3 @@ p{
 .menu:visited{color:white;text-decoration: none;}
 .menu:hover{color:white;text-decoration: none;text-shadow: 0 0 5px white; }
 .menu:active{color:white;text-decoration: none;}
-/*pseudo clase*/
-/*0 0 5px white*/
